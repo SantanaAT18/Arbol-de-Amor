@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Ola mi vida:\n\nDesde el primer momento supe que eras tú. Tu sonrisa, tu voz, tu forma de ser… todo en ti me hace sentir en casa.\n\nGracias por acompañarme en cada paso, por entenderme incluso en silencio, y por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
+    text = `Ola mi vida:\n\nSé que últimamente las cosas no han sido fáciles para ti y que además no te estás sintiendo bien. Ojalá pudiera estar ahí para cuidarte y acompañarte como quisiera, pero aunque estemos lejos, quiero que sepas que estoy aquí para ti.\n\nSé que no estarás tanto en el celular porque tienes trabajo y varias cosas que hacer, y quiero que sepas que está bien, mi amor y lo entiendo. Haz tus cosas tranquila, yo estaré aquí cuando puedas.\n\nTe amo más de lo que las palabras pueden expresar.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
